@@ -1,7 +1,9 @@
 # skr_v2
 Marling firmware using an Anycubic Chiron upgraded with an SKR 2 motherboard
 
-HUGE THANKS TO EvilGremlin WHICH DID MOST OF THE WORK <3
++----------------------------------------------------------+
++ HUGE THANKS TO EvilGremlin WHICH DID MOST OF THE WORK <3 +
++----------------------------------------------------------+
 SRK MCU
 
 This firmware build is for the newer SKR 2.0 board, they mount the STM32F429 MCU, if you use the STM32F407 you will have to edit the line:
