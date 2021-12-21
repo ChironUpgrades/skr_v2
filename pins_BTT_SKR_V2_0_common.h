@@ -584,3 +584,7 @@
 #define ESP_WIFI_MODULE_RESET_PIN           PC14
 #define ESP_WIFI_MODULE_GPIO0_PIN           PB10
 #define ESP_WIFI_MODULE_GPIO4_PIN           PB11
+
+#ifdef ANYCUBIC_LCD_CHIRON
+  #define BEEPER_PIN                 EXP1_10_PIN
+#endif
