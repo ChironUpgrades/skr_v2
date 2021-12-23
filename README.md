@@ -52,4 +52,4 @@ FAN 2 is used to cool the hotend
 In case you have problems with this firmware version make sure that you are using the right pins:
 [PINS MAP](https://github.com/bigtreetech/SKR-2/blob/master/Hardware/BIGTREETECH%20SKR%202-Pin.pdf "PINS MAP")
 
-Work in progess, wait for a stable version.
+**Work in progess, wait for a stable version.**
