@@ -5,7 +5,9 @@ HUGE THANKS TO EvilGremlin WHICH DID MOST OF THE WORK <3
 ## SRK MCU
 
 This firmware build is for the newer SKR 2.0 board, they mount the STM32F429 MCU, if you use the STM32F407 you will have to edit the line:
+```c
 default_envs = BIGTREE_SKR_2_F429 
+```
 in platformio.ini (you will have to check to right code to use)
 
 ## FIRMWARE
@@ -37,5 +39,6 @@ https://www.thingiverse.com/thing:4549542
 BLTcouch offset with this mount:
 ```c
 #define NOZZLE_TO_PROBE_OFFSET { -38, 3, -2.66 }
+```
 
 Work in progess, wait for a stable version.
