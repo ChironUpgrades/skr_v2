@@ -4,11 +4,10 @@ HUGE THANKS TO EvilGremlin WHICH DID MOST OF THE WORK <3
 
 ## SRK MCU
 
-This firmware build is for the newer SKR 2.0 board, they mount the STM32F429 MCU, if you use the STM32F407 you will have to edit the line:
+This firmware build is for the newer SKR 2.0 board, they mount the STM32F429 MCU, if you use the STM32F407 you will have to edit the line in platformio.ini (you will have to check to right code to use):
 ```c
 default_envs = BIGTREE_SKR_2_F429 
 ```
-in platformio.ini (you will have to check to right code to use)
 
 ## FIRMWARE
 
@@ -33,9 +32,9 @@ This firmware version works with a BTT TFT35 E3 V3.0 LCD.
 
 ## HOTEND/EXTRUDER
 
-This firmware is tuned to work with an Hemera.
-Here's the thingiverse file:
-[Thingiverse file](https://www.thingiverse.com/thing:4549542 "Thingiverse")
+This firmware is tuned to work with an Hemera.<br />
+Here's the thingiverse file:<br />
+[Thingiverse file](https://www.thingiverse.com/thing:4549542 "Thingiverse")<br />
 BLTcouch offset with this mount:
 ```c
 #define NOZZLE_TO_PROBE_OFFSET { -38, 3, -2.66 }
@@ -43,9 +42,9 @@ BLTcouch offset with this mount:
 
 ## FANS
 
-The SKR 2 has 3 fans slots, I use the FAN2 to cool down the TMC2209, I used a conversion part to replace the Trigorilla to a SRK 2
-[Thingiverse file](https://www.thingiverse.com/thing:5139218 "Thingiverse")
-FAN 1 is used as part cooling
+The SKR 2 has 3 fans slots, I use the FAN2 to cool down the TMC2209, I used a conversion part to replace the Trigorilla to a SRK 2<br />
+[Thingiverse file](https://www.thingiverse.com/thing:5139218 "Thingiverse")<br />
+FAN 1 is used as part cooling<br />
 FAN 2 is used to cool the hotend
 
 ## PINS TUNING
