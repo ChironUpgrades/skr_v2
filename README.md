@@ -1,6 +1,6 @@
 # Marling firmware using an Anycubic Chiron upgraded with an SKR 2 motherboard
 
-HUGE THANKS TO EvilGremlin WHICH DID MOST OF THE WORK <3 
+**HUGE THANKS TO EvilGremlin WHICH DID MOST OF THE WORK** :sparkling_heart:
 
 ## SRK MCU
 
@@ -33,7 +33,7 @@ This firmware version works with a BTT TFT35 E3 V3.0 LCD.
 ## HOTEND/EXTRUDER
 
 This firmware is tuned to work with an Hemera.<br />
-Here's the thingiverse file:<br />
+Here's the thingiverse mount file:<br />
 [Thingiverse file](https://www.thingiverse.com/thing:4549542 "Thingiverse")<br />
 BLTcouch offset with this mount:
 ```c
