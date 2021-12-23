@@ -20,7 +20,7 @@ You will need the TMC2209 stepper drivers, and a BLTOUCH, you will need to make 
 - You don't have the TMC2209, you will have to turn off the sensorless homing feature
 - You don't have a BLTOUCH, you might still be able to use sensorless homing for the Y and X axis, but you will need to leave the stock z axis end stops.
 
-Z double stepper motors
+## Z DOUBLE STEPPER MOTORS
 
 The chiron has 2 Z motors, to move each motor indipendently it's important to use the E1 slot in the motherboard to connect one of the Z stepper motor.
 If you use the Z1 slot you will have both motors moving not indipendently.
