@@ -55,7 +55,7 @@ In case you want to edit the pins:
 #define E0_AUTO_FAN_PIN FAN1_PIN //FAN1_PIN is FAN 1 which I use for the hotend
 ```
 ```c
-//FAN0_PIN is by default the cooling part fan
+//FAN_PIN is by default the cooling part fan
 ```
 Pins are declered in pins_BTT_SKR_V2_0_common.h file <br />
 
