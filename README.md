@@ -42,10 +42,18 @@ BLTcouch offset with this mount:
 
 ## FANS
 
-The SKR 2 has 3 fans slots, I use the FAN2 to cool down the TMC2209, I used a conversion part to replace the Trigorilla to a SRK 2<br />
-[Thingiverse file](https://www.thingiverse.com/thing:5139218 "Thingiverse")<br />
-FAN 1 is used as part cooling<br />
-FAN 2 is used to cool the hotend
+The SKR 2 has 3 fans slots, I use the: 
+FAN 2 to cool down the TMC2209, I used a conversion part to replace the Trigorilla to a SRK 2. [Thingiverse file](https://www.thingiverse.com/thing:5139218 "Thingiverse")<br />
+FAN 1 is used to cool the hotend<br />
+FAN 0 is used for part cooling<br />
+
+In case you want to edit the pins:
+```c
+#define CONTROLLER_FAN_PIN PB5 //PB5 is FAN 2 which I use for the TMC and MCU cooling
+```
+```c
+#define E0_AUTO_FAN_PIN PB6 //PB6 is FAN 1 which I use for the hotend
+```
 
 ## PINS TUNING
 
