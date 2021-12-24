@@ -49,11 +49,16 @@ FAN 0 is used for part cooling<br />
 
 In case you want to edit the pins:
 ```c
-#define CONTROLLER_FAN_PIN PB5 //PB5 is FAN 2 which I use for the TMC and MCU cooling
+#define CONTROLLER_FAN_PIN FAN2_PIN //FAN2_PIN is FAN 2 which I use for the TMC and MCU cooling
 ```
 ```c
-#define E0_AUTO_FAN_PIN PB6 //PB6 is FAN 1 which I use for the hotend
+#define E0_AUTO_FAN_PIN FAN1_PIN //FAN1_PIN is FAN 1 which I use for the hotend
 ```
+```c
+//FAN0_PIN is by default the cooling part fan
+```
+Pins are declered in pins_BTT_SKR_V2_0_common.h file <br />
+
 * I used a conversion part to replace the Trigorilla to a SRK 2. [Thingiverse file](https://www.thingiverse.com/thing:5139218 "Thingiverse")<br />
 
 ## PINS TUNING
