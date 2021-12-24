@@ -27,7 +27,7 @@ If you use the Z1 slot you will have both motors moving not indipendently.
 
 ## TFT
 
-The stock LCD was giving too much problems, the SKR 2.0 doesn't have a beeper pin in the TFT slot meaning the LCD would need a review and additional work which is not worth.
+The stock LCD was giving too much problems, the SKR 2.0 doesn't have a beeper pin in the TFT slot meaning the LCD would need a review and additional work which is not worth.<br />
 This firmware version works with a BTT TFT35 E3 V3.0 LCD.
 
 ## HOTEND/EXTRUDER
