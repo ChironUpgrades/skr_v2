@@ -1294,9 +1294,9 @@
 //#define DELAY_BEFORE_PROBING 200  // (ms) To prevent vibrations from triggering piezo sensors
 
 // Require minimum nozzle and/or bed temperature for probing
-#define PREHEAT_BEFORE_PROBING
+//#define PREHEAT_BEFORE_PROBING
 #if ENABLED(PREHEAT_BEFORE_PROBING)
-  #define PROBING_NOZZLE_TEMP 215   // (°C) Only applies to E0 at this time
+  //#define PROBING_NOZZLE_TEMP 215   // (°C) Only applies to E0 at this time
   #define PROBING_BED_TEMP     60
 #endif
 
