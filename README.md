@@ -61,6 +61,17 @@ Pins are declered in pins_BTT_SKR_V2_0_common.h file <br />
 
 * I used a conversion part to replace the Trigorilla to a SRK 2. [Thingiverse file](https://www.thingiverse.com/thing:5139218 "Thingiverse")<br />
 
+**IMPORTANT:**<br />
+Currently the PWM fans don't work!<br />
+We need to wait for marlin to work on the SKR 2 and fix this issue.<br />
+You can just plug the the TMC2209/MCU cooling and the hotend fun to the 24V sockets.<br />
+FAN 0 can still be used for cooling part (it works).<br />
+FAN 3 & FAN 4 are the one you need to use for the TMC2209/MCU cooling and for the hotend cooling.
+
+## BLTouch
+
+I'm currently having problems to understand what's wrong, so work in progress here as well.
+
 ## PINS TUNING
 
 In case you have problems with this firmware version make sure that you are using the right pins:
